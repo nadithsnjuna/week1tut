@@ -1,5 +1,5 @@
 package uk.ac.westminster.products_api;
-
+// Verified: removing getName() drops "name" from the JSON response
 public class Product {
     private Long id;
     private String name;
