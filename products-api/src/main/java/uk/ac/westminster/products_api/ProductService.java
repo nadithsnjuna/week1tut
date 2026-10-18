@@ -27,4 +27,7 @@ public class ProductService {
                 .filter(p -> p.getId().equals(id))
                 .findFirst();
     }
+    public void deleteProduct(Long id) {
+        products.removeIf(p -> p.getId().equals(id));
+    }
 }
